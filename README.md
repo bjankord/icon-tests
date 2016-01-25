@@ -22,6 +22,12 @@ This test loads an svg sprite into an object element the top of the body and the
 ### SVG Test 5
 This test uses an external use xlink:href used to point to symbols in the svg sprite.
 
+### SVG Test 6
+This test is the same as test 3, though the JS to ajax the sprite has been moved to the head rather than at the end of the body.
+
+### SVG Test 7
+This test is the same as test 6, though it async adds a script tag to ajax the sprite into the head rather than inline the ajax script.
+
 ====
 
 ## Font Tests
