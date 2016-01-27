@@ -8,28 +8,60 @@ Contributions welcome, feel free to open an issue with your ideas.
 
 ## SVG Tests
 ### SVG Test 1
-This test includes a svg sprite inline at the top of the body. SVG use xlink:href is used to point to symbols in the svg sprite.
+* Inline svg sprite at top of body
+* SVG use xlink:href point to symbols in the svg sprite
 
 ### SVG Test 2
-This test ajax loads an svg sprite into the top of the body. SVG use xlink:href is used to point to symbols in the svg sprite.
+* Inline script at end of the body to ajax load inline svg sprite at top of body
+* SVG use xlink:href point to symbols in the svg sprite
 
 ### SVG Test 3
-This test ajax loads an svg sprite into the top of the body. There is a noscript element with the SVG sprite markup inside of it at the top of the body as well to ensure the icons work if JS is disabled. SVG use xlink:href is used to point to symbols in the svg sprite.
+* Inline script at end of the body to ajax load inline svg sprite at top of body
+* SVG use xlink:href point to symbols in the svg sprite
+* Noscript element with the SVG sprite markup inside of it (handles no-js case)
+* SVG use xlink:href point to symbols in the svg sprite
+
 
 ### SVG Test 4
-This test loads an svg sprite into an object element the top of the body and then replaces the object with the SVG sprite. SVG use xlink:href is used to point to symbols in the svg sprite.
+* SVG sprite loaded in object element at top of body
+* Inline script at end of the body to replace the object with the SVG sprite
+* SVG use xlink:href point to symbols in the svg sprite
 
 ### SVG Test 5
-This test uses an external use xlink:href used to point to symbols in the svg sprite.
+* External use xlink:href
+* SVG use xlink:href point to symbols in the svg sprite
 
 ### SVG Test 6
-This test is the same as test 3, though the JS to ajax the sprite has been moved to the head rather than at the end of the body.
+* Inline script in the head to ajax load inline svg sprite at top of body
+* SVG use xlink:href point to symbols in the svg sprite
+* Noscript element with the SVG sprite markup inside of it (handles no-js case)
+* SVG use xlink:href point to symbols in the svg sprite
+(Same as test 3, though inline script has been moved to the head)
 
 ### SVG Test 7
-This test is the same as test 6, though it async adds a script tag to ajax the sprite into the head rather than inline the ajax script.
+* Inline script in the head to add a script tag to ajax the sprite into the head
+* SVG use xlink:href point to symbols in the svg sprite
+* Noscript element with the SVG sprite markup inside of it (handles no-js case)
+* SVG use xlink:href point to symbols in the svg sprite
+(Same as test 7, though inline JS adds a script tag to load in the ajax JS rather than include the ajax in the inline script block)
+
+### SVG Test 8
+* Inline every SVG
+
+### SVG Test 9
+* External use svg sprite
+* SVG4Everybody.js polyfill
+
+### SVG Test 10
+* External use svg sprite
+* svgxuse.js polyfill
 
 ====
 
 ## Font Tests
 ### Font Test 1
 This test includes a loading the icons via webfont. The test CSS includes reference to ttf and woff fonts.
+
+
+
+
