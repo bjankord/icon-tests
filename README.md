@@ -56,12 +56,66 @@ Contributions welcome, feel free to open an issue with your ideas.
 * External use svg sprite
 * svgxuse.js polyfill
 
+### SVG Test 11
+* Same as test 1
+* SVG files have been run through SVGO, then grunt-svgstore to create sprite
+* HTML file has been minified
+
+### SVG Test 12
+* Same as test 2
+* SVG files have been run through SVGO, then grunt-svgstore to create sprite
+* HTML file has been minified
+
+### SVG Test 13
+* Same as test 3
+* SVG files have been run through SVGO, then grunt-svgstore to create sprite
+* HTML file has been minified
+
+### SVG Test 14
+* Same as test 4
+* SVG files have been run through SVGO, then grunt-svgstore to create sprite
+* HTML file has been minified
+
+### SVG Test 15
+* Same as test 5
+* SVG files have been run through SVGO, then grunt-svgstore to create sprite
+* HTML file has been minified
+
+### SVG Test 16
+* Same as test 6
+* SVG files have been run through SVGO, then grunt-svgstore to create sprite
+* HTML file has been minified
+
+### SVG Test 17
+* Same as test 7
+* SVG files have been run through SVGO, then grunt-svgstore to create sprite
+* HTML file has been minified
+
+### SVG Test 18
+* Same as test 8
+* SVG files have been run through SVGO, then inlined into page
+* HTML file has been minified
+
+### SVG Test 19
+* Same as test 9
+* SVG files have been run through SVGO, then grunt-svgstore to create sprite
+* HTML file has been minified
+
+### SVG Test 20
+* Same as test 10
+* SVG files have been run through SVGO, then grunt-svgstore to create sprite
+* HTML file has been minified
+
 ====
 
 ## Font Tests
 ### Font Test 1
 This test includes a loading the icons via webfont. The test CSS includes reference to ttf and woff fonts.
 
+### Font Test 2
+* Same as test 1
+* HTML file has been minified
+* CSS file has been minified
 
 
 
